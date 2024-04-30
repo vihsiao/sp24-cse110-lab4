@@ -1,0 +1,1 @@
+1. The bug was that the variables num1 and num2 were strings, so the addition in calculateSum() was string concatenation instead of integer addition
