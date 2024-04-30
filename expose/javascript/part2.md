@@ -26,14 +26,14 @@
     H - NaN (you cannot subtract a string with the undefined term because undefined term does not cast to an integer)
 14. 
     A - true (because 2 casted to an int and comparison turns to 2 > 1)
-    B - false ()
+    B - false ('1' is lexicographically smaller than '12', string comparisons compare based on which is lexicographically smaller)
     C - true (values are the same)
     D - false (types are not the same)
     E - false (true casts to 1 as an int, so comparison becomes 1 == 2)
-    F - true
+    F - true (Boolean(2) is casted to true, any int other than 0 casted to a boolean is true, so comparison becomes true == true)
 15. The === operator checks if the types between two values are the same along with the values of the two elements being compared, the == operator does not check for type
-17. [2, 4, 6]. A for loop 
-19. 
+16. [2, 4, 6]. A for loop loops through the elements in the array ([1, 2, 3]), the array element is passed into the callback function (which is doSomething), in which the element is doubled and pushed into a new array. After the for loop looped through all elements in the array, the new array (in this case, [2, 4, 6]) is returned.
+17. 
     1
     2
     3
